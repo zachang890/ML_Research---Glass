@@ -1,3 +1,5 @@
+# SOURCE FILE FOR DEMONSTRATING CLOSENESS BETWEEN ACTUAL AND PREDICTED POISSON'S RATIOS
+
 from graph_train_test import Graph_Train_Test
 from atomic_mol_percentage import Atomic_Mol_Percentage
 

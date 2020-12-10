@@ -1,3 +1,5 @@
+#SOURCE FILE FOR MATHEMATICAL TRANSFORMATIONS, NORMALIZATION, AND BASIC RANDOM FOREST REGRESSION
+
 from atomic_mol_percentage import Atomic_Mol_Percentage
 from feature_onboard import Feature_Onboard
 from feature_transformations import Feature_Transformations

@@ -1,3 +1,5 @@
+#SOURCE FILE FOR OPTIMIZING LASSO, CHOOSING THE BEST FEATURES, AND RETRYING RANDOM FOREST REGRESSOR
+
 from alpha_finder import Alpha_Finder
 from random_regress_with_selection import Random_Regressor_Selective
 
