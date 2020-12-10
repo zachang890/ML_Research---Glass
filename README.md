@@ -1,4 +1,4 @@
-# PARISLab, UCLA - Feature Engineering
+# PARISlab, UCLA - Feature Engineering
 
 ## Source Files
 - F20 - Summary: Contains complete source code for data analysis
