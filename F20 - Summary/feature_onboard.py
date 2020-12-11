@@ -1,3 +1,4 @@
+# calculates matrix from dot product of atomic mole percentages and atomic features
 import pandas as pd
 
 class Feature_Onboard:

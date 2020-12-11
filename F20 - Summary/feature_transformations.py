@@ -1,3 +1,5 @@
+# performs mathematical transformations
+
 import numpy as np
 import math
 

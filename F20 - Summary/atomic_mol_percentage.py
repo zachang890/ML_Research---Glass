@@ -1,3 +1,4 @@
+# calculate atomic mole percentages for glass
 import pandas as pd
 from collections import defaultdict
 from collections import OrderedDict

@@ -1,3 +1,5 @@
+# performs random forest regression using estimators (range: 1-50) with transformed dataset
+
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn import metrics

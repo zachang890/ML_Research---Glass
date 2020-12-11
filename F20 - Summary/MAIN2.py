@@ -5,7 +5,7 @@ from random_regress_with_selection import Random_Regressor_Selective
 
 if __name__ == "__main__":
 
-    # 1. ################# FIND OPTIMAL ALPHA VALUE FOR LASSO
+    # 1. ################# FIND OPTIMAL ALPHA VALUE FOR LASSO, FIRST-LEVEL TRANSFORM
 
     alpha_obj = Alpha_Finder("./resources/transformed_samples_by_features.csv")
     poisson_train, poisson_test = alpha_obj.calculate_alpha_rmse("POISSONS")

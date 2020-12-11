@@ -1,3 +1,5 @@
+# plots RMSE vs. alpha values for LASSO, plot LASSO coeffs, filters and ranks top coeffs
+
 from sklearn.linear_model import Lasso
 from sklearn import metrics
 import math

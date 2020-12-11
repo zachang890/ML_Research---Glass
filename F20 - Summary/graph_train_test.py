@@ -1,3 +1,4 @@
+# performs regression using optimal # of estimators (determined from random_regress_no_selection.py & random_regress_with_selection.py), plots predicted vs. actual
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
