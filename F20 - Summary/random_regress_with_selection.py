@@ -22,7 +22,7 @@ class Random_Regressor_Selective:
         for feature in selected:
             selected_features_df[feature] = selected_data[feature]
 
-        pred = pd.read_csv("/content/drive/MyDrive/Oxide_glass_1_5_02142020.csv").drop(["Index", "Code", "Glass #", "Author", "Year", "Trademark", "Glass_composition", drop1, drop2], axis=1)
+        pred = pd.read_csv("./resources/Oxide_glass_1_5_02142020.csv").drop(["Index", "Code", "Glass #", "Author", "Year", "Trademark", "Glass_composition", drop1, drop2], axis=1)
         X = selected_features_df.iloc[:, 0:len(selected)]
         Y = pred[current]
 
